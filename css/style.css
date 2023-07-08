@@ -9,12 +9,12 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: 'Outfit', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 main{
     height: 90vh;
-    width: 440px;
+    width: 400px;
     background-color: hsl(219, 100%, 87%) ;
     border-radius:10px;
 }
@@ -34,7 +34,7 @@ main,
     border-radius: 15px;
     background-color: white;
 
-    width: 375px;
+    width: 360px;
     height: 582px;
     display: flex;
     flex-direction: column;
@@ -43,9 +43,9 @@ main,
 
 .main-content .qr-code{
     border-radius: 15px;
-    width: 337px;
-    height: 337px;
-    margin: 17.5px;
+    width: 330px;
+    height: 330px;
+    margin: 15px;
 }
 
 .main-content .paragraph,
