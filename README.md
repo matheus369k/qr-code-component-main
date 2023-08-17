@@ -9,5 +9,5 @@ _+*Nota*__ : *Projeto tem como foco e treinamento das abilidades __HTML5__ e __C
 - CSS
 
 ## 📃Licença
-Licença aderida (MIT) - veja [Licença](/license)
+Licença aderida (MIT) - veja [Licença](/License)
 
