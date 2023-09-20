@@ -1,89 +1,70 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
-    background-color: antiquewhite;
-    width: 100vw;
+:root {
+    --fundo-color: #d6e2f0;
+    --P-color: #7b879d;
+    --a-color: # #7b879d;
+    --hover-color: #375e67fa;
+}
+
+html,
+body {
     height: 100vh;
+}
+
+body {
+    background-color: var(--fundo-color);
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
-}
-
-main{
-    height: 90vh;
-    width: 400px;
-    background-color: hsl(219, 100%, 87%) ;
-    
-}
-
-main,
-.main-content{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-
-    box-shadow: 4px 12px 5px 9px rgba(0, 0, 0, 0.115);
-
-}
-
-.main-content{
-    border-radius: 15px;
-    background-color: white;
-
-    width: 360px;
-    height: 582px;
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
+    align-items: center;
 }
 
-.main-content .qr-code{
+main {
+    box-shadow: 4px 12px 5px 9px #0000001d;
+    background-color: white;
     border-radius: 15px;
-    width: 330px;
-    height: 330px;
-    margin: 15px;
+    padding: 25px;
+    width: 375px;
 }
 
-.main-content .paragraph,
-.main-content .title{
-    margin: 15px 40px;
+img {
+    width: 320px;
+    display: block;
+    border-radius: 15px;
+    margin: auto;
 }
 
-.main-content .title{
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.485);
+h1 {
+    color: hsl(218, 44%, 22%);
+    margin: 40px 0;
+    font-size: 1.8em;
     text-align: justify;
     font-weight: 700;
 }
 
-.main-content .paragraph{
-    color: rgb(102, 101, 101);
+p {
+    color: var(--P-color);
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 1.2em;
 }
 
-footer{
-    padding: 5px;
-    text-align: center;
-    height: 5vh;
+footer {
+    margin-top: 20px;
 }
 
-footer a{
-    text-decoration: none;;
-    color: rgba(55, 94, 103, 0.98);
+a {
+    text-decoration: none;
+    color: var(--a-color);
 }
 
-footer a:hover{
-    color: rgba(30, 53, 58, 0.98) ;
-}
-
-@media screen and (min-width: 1445px) {
-    main{
-        width: 90vw;
-        height: 75vh;
-
-    }
+a:hover {
+    color: var(--hover-color);
 }
