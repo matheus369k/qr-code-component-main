@@ -1,14 +1,14 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
 :root {
     --fundo-color: #d6e2f0;
     --P-color: #7b879d;
     --a-color: # #7b879d;
     --hover-color: #375e67fa;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 html,
